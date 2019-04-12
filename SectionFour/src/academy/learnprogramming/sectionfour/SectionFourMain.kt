@@ -98,12 +98,9 @@ fun arrayLearning (): Unit {
 
     println()
     //convert collection array to primitive array
-    DummyClass().printNumbers(arrayOf(10,20,30).toIntArray())
+    DummyClass().printNumbers(arrayOf(10,20,30).toIntArray()) //Creates a primitive array
 
     //convert primitive array to collection Array
-    var collectionArray: Array<Int> = primArray.toTypedArray()
-
-
-
+    var collectionArray: Array<Int> = primArray.toTypedArray() //This is Kotlin Array
 
 }
